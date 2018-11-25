@@ -22,11 +22,11 @@ const rootRouters = [
         //根路由匹配
         path:'/',
         exact:true,
-        component:() => <Redirect to='javascript-tech'/>
+        component:() => <Redirect to='javascript-note'/>
     },
     {
         // 首页
-        path:'/javascript-tech',
+        path:'/javascript-note',
         component:loadables('index')
     },
     {
