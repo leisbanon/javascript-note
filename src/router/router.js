@@ -90,6 +90,11 @@ const routers = [
         path:'/view8',
         component:loadables('page/view8'),
     },
+    {
+        // 解耦赋值(对象/数组)
+        path:'/view9',
+        component:loadables('page/view9'),
+    },
     
 ]
 
