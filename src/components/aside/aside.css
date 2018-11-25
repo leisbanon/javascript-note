@@ -1,0 +1,70 @@
+#aside {
+    z-index: 10;
+}
+#asideHand {
+    z-index: 20;
+    transform: translate(-280px);
+    box-shadow: rgb(221, 221, 221) 1px 0px 3px 0px;
+}
+#asideHand ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
+#asideHand ul li {
+    border: 1px #6495ED solid;
+    list-style: none;
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: 	#6495ED;
+    margin-right: 8px;
+    user-select: none;
+}
+.aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 280px;
+    border-right: 1px solid #ddd;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    transition: all .25s ease-out;
+}
+.aside .tip {
+    padding: 12px 22px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aside .tip img{
+    width: 32px;
+    cursor: pointer;
+    user-select: none;
+}
+.aside .tip img:active {
+    opacity: .5;
+}
+.aside ul li {
+    color: #4a73ea;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-bottom: 12px;
+}
+.aside ul li:active{
+    opacity: .5;
+}
+.handAsideStyleActive {
+    background: #6495ED;
+    color: white !important;
+    border: none;
+}
