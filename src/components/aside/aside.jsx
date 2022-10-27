@@ -38,6 +38,7 @@ class Aside extends Component {
             {title:'对象属性的可枚举性',component:'view7'},
             {title:'原型和原型链',component:'view8'},
             {title:'解耦赋值(对象/数组)',component:'view9'},
+            {title:'类表达式继承',component:'view10'},
     
         ]
 

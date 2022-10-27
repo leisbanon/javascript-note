@@ -11,6 +11,7 @@ import {
     Call,
     Apply,
     Bind,
+    Super,
 } from '@/components'
 
 class Spanner extends Component {
@@ -32,6 +33,8 @@ class Spanner extends Component {
                     return (<Apply />)
                 case 'bind':
                     return (<Bind />)
+                case 'super':
+                    return (<Super />)
                 default:
                 return <div></div>;
             }

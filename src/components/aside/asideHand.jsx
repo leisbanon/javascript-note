@@ -45,6 +45,7 @@ class AsideHand extends Component {
             {title:'call() 操作函数',route:'spanner',component:'call'},
             {title:'apply()',route:'spanner',component:'apply'},
             {title:'bind()',route:'spanner',component:'bind'},
+            {title:'super()',route:'spanner',component:'super'},
         ];
 
         let spannerItem = window.sessionStorage.getItem('spannerItem');

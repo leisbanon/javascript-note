@@ -95,6 +95,11 @@ const routers = [
         path:'/view9',
         component:loadables('page/view9'),
     },
+    {
+        // 类表达式
+        path:'/view10',
+        component:loadables('page/view10'),
+    },
     
 ]
 

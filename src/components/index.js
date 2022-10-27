@@ -14,6 +14,7 @@ const In = components('spanner/in.jsx');
 const Call = components('spanner/call.jsx');
 const Apply = components('spanner/apply.jsx');
 const Bind = components('spanner/bind.jsx');
+const Super = components('spanner/super.jsx');
 export {
     Prism,
     Aside,
@@ -24,4 +25,5 @@ export {
     Call,
     Apply,
     Bind,
+    Super,
 }
